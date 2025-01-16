@@ -1,4 +1,3 @@
-// IMC.jsx
 export function calcularIMC(peso, altura) {
     return peso / (altura * altura);
   }
@@ -15,9 +14,9 @@ export function calcularIMC(peso, altura) {
     } else if (IMC < 34.99) {
       return "Obesidade grau 1";
     } else if (IMC < 39.99) {
-      return "Obesidade grau 2 (Severa)";
+      return "Obesidade grau 2";
     } else {
-      return "Obesidade grau 3 (Mórbida)";
+      return "Obesidade grau 3";
     }
   }
   
